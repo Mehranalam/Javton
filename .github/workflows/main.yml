@@ -1,5 +1,8 @@
-on: push
-  github-release:
+on: 
+  push:
+    branches:
+      - main
+  release:
     name: >-
       Sign the Python 🐍 distribution 📦 with Sigstore
       and upload them to GitHub Release
